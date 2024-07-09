@@ -14,7 +14,7 @@
     <header id="Header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" alt="Logo image">
+                <img src="images/logo.jpg" alt="Logo image">
                 <ul id="sidemenu">
                     <li><a href="#Header">Home</a></li>
                     <li><a href="#About">About</a></li>
@@ -23,7 +23,9 @@
                     <li><a href="#Contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <div>
                 <i class="fas fa-bars" onclick="openmenu()"></i>  
+            </div> 
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
@@ -33,7 +35,7 @@
     </header>
 
     <!-- --------------about------- -->
-    <section id="About">
+    <!-- <section id="About">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -72,7 +74,49 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+        <!-- --------------about------- -->
+<section id="About">
+    <div class="container">
+        <div class="row">
+            <div class="profile-image">
+                <img src="images/user.png" alt="Aniket's profile picture" >
+            </div>
+            <div class="about-content">
+                <h1 class="sub-title">About Me</h1> <br>
+                <p>Hi, I'm Aniket, a passionate developer based in Sinnar, MH. I specialize in front-end web development, creating modern, responsive websites.</p><br>
+                <p>I'm proficient in HTML, CSS, JavaScript, ReactJS, and PHP. My goal is to become a Full Stack Web Developer. I believe that everyone has the ability to create and design, which is why I want to create user-friendly, responsive websites for everyone.</p><br>
+                <p>Outside of coding, I love playing basketball, cricket, and I also love listening to music. Feel free to connect with me if you have any queries or suggestions. Let's build something amazing together!</p><br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" role="tab" aria-controls="Skills" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" role="tab" aria-controls="Experience" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" role="tab" aria-controls="Education" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills" role="tabpanel" aria-labelledby="Skills">
+                    <ul>
+                        <li><span>UI UX</span><br>Designing Web /App Interfaces</li>
+                        <li><span>Web Development</span><br> Web-App Development</li>
+                        <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience" role="tabpanel" aria-labelledby="Experience">
+                    <ul>
+                        <li><span>Ex Intern @</span><br>Worked in YBI Foundation</li>
+                        <li><span>Current Intern @</span><br>Intern Pe </li>
+                        <li><span>Position</span><br>Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education" role="tabpanel" aria-labelledby="Education">
+                    <ul>
+                        <li><span>Undergraduate Degree</span><br>From Sandip University</li>
+                        <li><span>Specizlized in</span><br> Artificial Inteligence And Machnine Learning</li>
+                        <li><span>Undergoing Courses</span><br> Full Stack Developer</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
         <!-- -----services -------->
 <section class="services-section">
     <div id="Services">
@@ -82,19 +126,19 @@
             <div>
                 <i class="fa-solid fa-code"></i>
                 <h2>Website Designing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>I can design websites as per user instructions.</p>
                 <a href="#">Learn More</a>
             </div>
             <div>
                 <i class="fa-solid fa-server"></i>
-                <h2>SQL Server Writer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Machine Learning</h2>
+                <p>Colaborations are welcomed in this topic .</p>
                 <a href="#">Learn More</a>
             </div>
             <div>
                 <i class="fa-brands fa-figma"></i>
                 <h2>UI & UX Designing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Template are provided  </p>
                 <a href="#">Learn More</a>
             </div>
             </div>
